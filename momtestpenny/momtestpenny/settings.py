@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 import dj_database_url
+import psycopg2
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -77,10 +79,29 @@ WSGI_APPLICATION = 'momtestpenny.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqli3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd3f3inue1hk1fb',
+        'USER': 'nhcjoidqnceuqr',
+        'PASSWORD': '8a3bbdfb7683faa4983a0b1c595eb46f853c126b461a0e06ba48bf0dda3eddf8',
+        'HOST': 'ec2-54-243-128-95.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'ATOMIC_REQUESTS': False,
     }
 }
+# Try to develop the database locally
+# DATABASES = {
+#      'default': {
+#          'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#          'NAME': 'cool01db',
+#          'USER': '', 
+#          'PASSWORD': '',
+#          'HOST': 'localhost', # '127.0.0.1' probably works also
+#          'PORT': '5432',
+
+#      }
+#  }
+
+
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
