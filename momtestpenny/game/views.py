@@ -1,5 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def my_view(request):
-    return render(request, 'game.html', "Hello World" , content_type='application/xhtml+xml')
+    return HttpResponse( "Hello, world. You're at the polls index." )
