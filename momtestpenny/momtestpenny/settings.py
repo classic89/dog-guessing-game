@@ -149,6 +149,6 @@ db_from_env = dj_database_url.config(conn_max_age=500, ssl_require=True)
 DATABASES['default'].update(db_from_env)
 
 # All settings common to all environments
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+# STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
