@@ -65,7 +65,9 @@
   - elastic don't need
   - websockets don't need
   - kafka don't need
-- _Decision_: **_fork dog ceo api and possibily add the information needed_**
+  - Liquibase version control of database will definitly come in handy
+  - JHipster might be helpful for a quickly deployed application but needs a lot of rework
+- _Decision_: **_fork dog ceo api and possibily add the information needed_** and **_liquidbase_** and **_JHipster_**
 
 ## Frameworks
 
