@@ -1,6 +1,6 @@
-Dog Guessing Game
+# Dog Guessing Game
 
-Please refer to the Architecture_Design folder for design decisions
+Please refer to the **\*Architecture_Design** folder for design decisions
 
 This simple web game is a gift for my mom.
 

@@ -76,7 +76,7 @@
   - Spring familiar
   - Micronaut
   - Quarkus
-- _Decision_: Spring and React
+- _Decision_: **Spring and React**
 
 ## Bootswatch Theme
 
@@ -88,4 +88,4 @@
   - Superhero
   - United
   - Yeti
-- _Decision_: Yeti
+- _Decision_: **Yeti**
