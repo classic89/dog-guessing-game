@@ -28,7 +28,7 @@
   - \*Breed
   - Breed Percentage
 
-- Enum Breed:
+- Object Breed:
 
   - Picture
   - Coat colors
